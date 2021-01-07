@@ -206,4 +206,5 @@ dhcp-host=n5,10.0.3.105
 * Then, go and run the lxc-create command, but...
 * no need to edit /var/lib/lxc/*/config or set up a bridge, LXC does that for you.
 * Fire up the boxes (lxc-start -n n{1,2,3,4,5} -d) and you should be able to ssh right into them.
+* For setting the default root password, use lxc-atatch -n n{1,2,3,4,5} and then passwd
 * Follow the rest of the Debian tutorial, but make sure to use the correct ip addresses.
